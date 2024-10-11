@@ -1,0 +1,22 @@
+<html>
+  <body>
+    <br1>Greetings, adventurer!<br1> For your convenience, I will be available every hour to apply a buff. To disable this feature, click "unFollow"..<br1>
+    <br1>
+	        <table width=270 border=0 bgcolor="444444">
+            <tr>
+	                <td>
+                    <button value="Buff Follow" action="bypass -h npc_%objectId%_Quest BuffFollow follow_buffs" msg="Confirm buy Suporte NPC Follow?" width=102 height=28 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+                </td>
+					<td>
+                    <button value="unFollow Buff" action="bypass -h npc_%objectId%_Quest BuffFollow cancel_buff" msg="Confirm cancelar Suporte NPC Follow?" width=102 height=28 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+                </td>            </tr>
+        </table> <br>
+
+The Buff NPC appears beside the player to provide re-buffs, granting access to the NPC's menu. Players can cancel the NPC's reappearance by clicking 'unfollow', logging out, or interacting with NPC Sonia near the city's Gatekeeper.
+<br1>
+The Buff NPC does not appear within instances, however, the player continues to receive re-buffs as usual. Only the player who has subscribed to the Buff NPC Follow support service is authorized to access this NPC's menu. <br1>Should other players attempt to click on the support NPC, an "operation failed" message will appear, and the menu will not be displayed.
+<br>
+
+	<td><button value="Back" action="bypass -h npc_%objectId%_Quest ShopBuffPlayer npc_default.html" width=80 height=28 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+  </body>
+</html>
