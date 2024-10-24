@@ -151,6 +151,74 @@ index 0000000..e2b576e
 +
 +
 +</list>
+diff --git dist/game/data/multisell/8888991.xml dist/game/data/multisell/8888991.xml
+new file mode 100644
+index 0000000..c5f0704
+--- /dev/null
++++ dist/game/data/multisell/8888991.xml
+@@ -0,0 +1,62 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
++    <npcs>
++        <npc>888899</npc> <!-- ID do ShopBuffPlayer -->
++    </npcs>
++    <item>
++        <ingredient count="1000000000" id="57" /> 
++        <production count="1" id="60250" /> 
++    </item>
++    <item>
++        <ingredient count="1000000000" id="57" /> 
++        <production count="1" id="60251" /> 
++    </item>
++	<item>
++        <ingredient count="1000000000" id="57" /> 
++        <production count="1" id="60252" /> 
++	</item>
++	<item>
++        <ingredient count="1000000000" id="57" /> 
++        <production count="1" id="60253" /> 
++	</item>
++	<item>
++        <ingredient count="1000000000" id="57" /> 
++        <production count="1" id="60254" /> 
++	</item>
++	<item>
++        <ingredient count="1000000000" id="57" /> 
++        <production count="1" id="60255" /> 
++	</item>
++	<item>
++        <ingredient count="1000000000" id="57" /> 
++        <production count="1" id="60256" /> 
++	</item>
++	<item>
++        <ingredient count="1000000000" id="57" /> 
++        <production count="1" id="60257" /> 
++	</item>
++	<item>
++        <ingredient count="1000000000" id="57" /> 
++        <production count="1" id="60258" /> 
++	</item>
++	<item>
++        <ingredient count="1000000000" id="57" /> 
++        <production count="1" id="60259" /> 
++	</item>
++	<item>
++        <ingredient count="1000000000" id="57" /> 
++        <production count="1" id="60260" /> 
++	</item>
++	<item>
++        <ingredient count="1000000000" id="57" /> 
++        <production count="1" id="60261" /> 
++	</item>
++	<item>
++        <ingredient count="1000000000" id="57" /> 
++        <production count="1" id="60262" /> 
++	</item>
++		<item>
++        <ingredient count="1000000000" id="57" /> 
++        <production count="1" id="60263" /> 
++	</item>
++</list>
 diff --git dist/game/data/scripts/custom/ShopBuffPlayer/888899.html dist/game/data/scripts/custom/ShopBuffPlayer/888899.html
 new file mode 100644
 index 0000000..9d54a8c
